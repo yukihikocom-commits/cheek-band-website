@@ -1,0 +1,366 @@
+{
+  "_readme": "This is the file to edit. Change directors, events, links, photos, and Coming soon items here, then rebuild. Search for \"placeholder\": true. Do not add private-lesson teachers' personal emails or unmatched headshots. See README.md.",
+  "name": "Cheek Middle School Band",
+  "shortName": "Cheek Band",
+  "mascot": "Chargers",
+  "tagline": "Denton ISD · Aubrey / Prosper, Texas",
+  "description": "Cheek Middle School Band is the Chargers band program in Denton ISD, serving grades 6–8 on the Aubrey campus.",
+  "phone": "(972) 347-7680",
+  "phoneHref": "tel:+19723477680",
+  "address": {
+    "line": "200 Denton Way",
+    "city": "Aubrey",
+    "state": "TX",
+    "zip": "76227",
+    "maps": "https://maps.google.com/?q=Cheek+Middle+School+200+Denton+Way+Aubrey+TX+76227"
+  },
+  "principal": "Dr. Beth Kelly",
+  "colors": {
+    "red": "#E31B2B",
+    "black": "#0B0B0B",
+    "silver": "#B9BEC2",
+    "paper": "#F2F3F4"
+  },
+  "images": {
+    "logo": "/images/cheek-logo.webp",
+    "logoSmall": "/images/cheek-logo-sm.webp",
+    "logoAlt": "Cheek Middle School Chargers logo",
+    "band": "/images/honors-band-2026.webp",
+    "bandAlt": "Cheek Middle School Honors Band standing in concert dress on a lawn, published in the 2026 Music for All National Festival program",
+    "bandCredit": "Photograph published in the 2026 Music for All National Festival program."
+  },
+  "video": {
+    "id": "7yXlpM8lchw",
+    "title": "2024 Cheek MS Band Recruitment Video",
+    "credit": "Published on YouTube by Gregory Denson."
+  },
+  "links": {
+    "school": "https://cheekms.dentonisd.org",
+    "schoolBand": "https://cheekms.dentonisd.org/academics/band",
+    "district": "https://www.dentonisd.org",
+    "googleSite": "https://sites.google.com/view/cheekband/home",
+    "instagram": "https://www.instagram.com/cheekmsband/",
+    "instagramHandle": "@cheekmsband",
+    "facebook": "https://www.facebook.com/profile.php?id=100092108492378",
+    "braswell": "https://www.braswellband.com/",
+    "markOfExcellence": "https://www.dentonisd.org/post-details/~board/district-headlines/post/mark-excellence-2026",
+    "mfaAnnouncement": "https://musicforall.org/music-for-all-announces-ensembles-invited-to-perform-at-the-2026-music-for-all-national-festival-presented-by-yamaha/",
+    "mfaSchedule": "https://festival.musicforall.org/spectatorguide/",
+    "mfaProgram": "https://festival.musicforall.org/wp-content/uploads/sites/8/2026/03/026-MFA-Festival-Program_Full-Web.pdf"
+  },
+  "nav": [
+    { "href": "/about", "label": "About" },
+    { "href": "/ensembles", "label": "Ensembles" },
+    { "href": "/beginning-band", "label": "Beginners" },
+    { "href": "/calendar", "label": "Calendar" },
+    { "href": "/families", "label": "Families" },
+    { "href": "/achievements", "label": "Achievements" },
+    { "href": "/gallery", "label": "Gallery" },
+    { "href": "/lessons", "label": "Lessons" },
+    { "href": "/practice", "label": "Practice" },
+    { "href": "/boosters", "label": "Support" },
+    { "href": "/contact", "label": "Contact" }
+  ],
+  "program": {
+    "summary": "Cheek Middle School Band is the largest organization on campus. It serves more than 280 students in grades 6 through 8. The directors' 2026 Music for All biography describes three concert ensembles, jazz band, beginning instrument classes, and an active percussion program.",
+    "feeder": "Cheek Middle School Band is a feeder for the Braswell High School Band.",
+    "placeNote": "The school address is 200 Denton Way, Aubrey, Texas 76227. The directors describe the program as Cheek Middle School in Prosper, in the Denton Independent School District."
+  },
+  "directors": [
+    {
+      "name": "Dr. Gregory L. Denson",
+      "role": "Director of Bands",
+      "email": "gdenson@dentonisd.org",
+      "phone": "(972) 347-7680 ext. 051272",
+      "photo": "/images/director-denson.webp",
+      "photoAlt": "Dr. Gregory Denson, Director of Bands",
+      "photoCredit": "Portrait published in the 2026 Music for All National Festival program.",
+      "placeholder": false,
+      "paragraphs": [
+        "Gregory L. Denson is Director of Bands at Cheek Middle School in the Denton Independent School District. The Cheek program is the largest organization at the school. In the 2026 Music for All festival program he described it as three concert ensembles, jazz band, and an active percussion program, serving more than 280 students in grades 6 through 8. The Honors Band was selected to perform at the 2026 Music for All National Festival in Indianapolis.",
+        "Dr. Denson is a native of Morven, Georgia. He holds a Bachelor of Music from Morehouse College, a Master of Music Education with teacher certification from The Florida State University, and a Doctor of Philosophy in Music Education from Georgia State University. He has studied with David Morrow, Uzee Brown, Andre Thomas, Richard Clary, Clifford Madsen, Steve Kelly, Kimberly VanWeelden, Pat Meighan, Clarence Johnson, and Gholnescar Muhammad.",
+        "He began his teaching career at D. M. Therrell High School in the Atlanta Public Schools. Students there took part in the Georgia Music Educators Association Large Group Performance Evaluation, college homecoming parades, the University of Georgia JanFest Clinic, and community and civic events. He was co-director of the Atlanta Public Schools Superintendent Jazz Ensemble and lead middle school band teacher for Atlanta Public Schools.",
+        "Before Cheek, he was Director of Bands at East Cobb Middle School in Marietta, Georgia. Under his direction that program grew from 120 students to more than 580 in four years, with five concert ensembles, jazz band, and student-led chamber ensembles. The East Cobb Honors Band was a featured ensemble at the Music for All National Festival in 2023, the Georgia Music Educators Association In-Service in 2023, and the University of Georgia Midfest Honor Band in 2020 and 2021. Those honors belong to East Cobb, not to Cheek.",
+        "He has presented clinics at the Midwest Clinic and the GMEA In-Service Conference. The biography on the band's Google Site also lists him as a Conn-Selmer VIP, an educational ambassador for the Eastman Music Company, and a former chair of the Georgia Music Educators Association Diversity, Equity, Inclusion, and Access Committee. He serves on the executive board of the Minority Band Directors National Association and is active as an adjudicator, guest conductor, and clinician."
+      ]
+    },
+    {
+      "name": "Eithan Moreno",
+      "role": "Listed on the campus band directory",
+      "email": "emoreno2@dentonisd.org",
+      "phone": "(972) 347-7680",
+      "photo": "",
+      "photoAlt": "",
+      "photoCredit": "",
+      "placeholder": true,
+      "paragraphs": [
+        "Eithan Moreno is listed beside Dr. Denson on the Cheek Middle School band directory. That directory card does not print a job title. A 2026 Aubrey news report on the Mark of Excellence recognition described him as assistant director.",
+        "A biography has not been published on the band site. The directors can add one in this file."
+      ]
+    },
+    {
+      "name": "Daney E. Glover",
+      "role": "Associate Director of Bands",
+      "email": "dglover@dentonisd.org",
+      "phone": "(972) 347-7680 ext. 051273",
+      "photo": "/images/director-glover.webp",
+      "photoAlt": "Daney Glover, Associate Director of Bands",
+      "photoCredit": "Portrait published in the 2026 Music for All National Festival program.",
+      "placeholder": false,
+      "note": "This role and biography are the ones the program published on its Google Site and in the March 2026 Music for All program. The campus band directory page fetched for this site listed Dr. Denson and Eithan Moreno, and did not list Mr. Glover. Confirm the current staff list before the next school year.",
+      "paragraphs": [
+        "Daney E. Glover is named Associate Director of Bands in the biography the program published and in the March 2026 Music for All festival program. At Cheek, that biography says he conducts the Symphonic Band, teaches beginning saxophone, trumpet, trombone, euphonium, and tuba, and assists with the Jazz, Concert, and Honors Bands. His festival biography describes the program as serving over 300 students and as the largest organization on campus.",
+        "Before Cheek, he was assistant director of bands from 2018 to 2020 and director of bands from 2020 to 2023 at Cooper Middle School in Austell, Georgia, in the Cobb County School District.",
+        "He is an alumnus of Louisiana State University, where he was a member of the tuba and euphonium studio, the Golden Band from Tigerland, the Bengal Brass basketball band, the LSU Symphonic Band, the LSU Symphonic Winds, and the LSU Wind Ensemble. He studied euphonium and conducting with Dr. Joseph Skillen, Dr. Chasse Duplantis, Dr. Damon Talley, Dr. Dennis Llinàs, Dr. Kelvin Jones, Dr. Jaclyn Hartenberger, and Dr. Jack A. Eaddy Jr.",
+        "He played euphonium in the Cobb Wind Symphony under Alfred L. Watkins and has worked as a clinician with middle and high school bands in Georgia and the DFW metroplex. The published biography lists memberships in the Minority Band Directors National Association, the Texas Music Educators Association, the Texas Bandmasters Association, Kappa Kappa Psi, and Phi Beta Sigma."
+      ]
+    }
+  ],
+  "ensembles": [
+    {
+      "name": "Honors Band",
+      "summary": "The Honors Band is the ensemble invited to the 2026 Music for All National Festival and named a 2026 Mark of Excellence National Winner in National Wind Band Honors, Band Class A. Dr. Denson is the director. Mr. Glover's published role includes assisting with the Honors Band.",
+      "repertoireTitle": "Music performed at the 2026 Music for All National Festival",
+      "repertoire": [
+        { "title": "Inspiration Fanfare", "composer": "Adrian Sims" },
+        { "title": "Rising Earth", "composer": "Laura Estes" },
+        { "title": "Variations on \"Scarborough Fair\"", "composer": "Calvin Cluster" },
+        { "title": "Washington Post", "composer": "John Philip Sousa" },
+        { "title": "March of the Trolls", "composer": "Edvard Grieg, arr. Brian Beck" },
+        { "title": "Lux Astra", "composer": "Tyler S. Grant" }
+      ],
+      "repertoireNote": "Composer names are copied from the 2026 festival program."
+    },
+    {
+      "name": "Symphonic Band",
+      "summary": "Mr. Glover conducts the Symphonic Band. In the 2024–25 daily schedule published on the band Google Site, Symphonic Band met during period 4.",
+      "repertoireTitle": "",
+      "repertoire": [],
+      "repertoireNote": ""
+    },
+    {
+      "name": "Concert Band",
+      "summary": "Mr. Glover's 2026 festival biography says he assists with the Concert Band, along with the Jazz and Honors Bands. Rehearsal time and current music have not been posted.",
+      "repertoireTitle": "",
+      "repertoire": [],
+      "repertoireNote": ""
+    },
+    {
+      "name": "Jazz Band",
+      "summary": "Jazz band is part of the program the directors describe. Mr. Glover's 2026 festival biography says he assists with the Jazz Band. The band Google Site had described him as leading it. Rehearsal details are not posted here yet.",
+      "repertoireTitle": "",
+      "repertoire": [],
+      "repertoireNote": ""
+    },
+    {
+      "name": "Beginning Band",
+      "summary": "Sixth graders, and current students who are new to band, start in instrument classes. The last published daily schedule grouped beginners by instrument. Every beginner is screened so the instrument is a good fit.",
+      "repertoireTitle": "",
+      "repertoire": [],
+      "repertoireNote": ""
+    },
+    {
+      "name": "Percussion",
+      "summary": "The directors describe an active percussion program. Beginner percussion was paired with beginner trumpet in the 2024–25 schedule. A separate percussion ensemble page has not been published.",
+      "repertoireTitle": "",
+      "repertoire": [],
+      "repertoireNote": ""
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-03-27",
+      "time": "2:00 p.m.",
+      "title": "Honors Band at the Music for All National Festival",
+      "place": "Howard L. Schrott Center for the Arts, Butler University, Indianapolis",
+      "detail": "National Concert Band Festival performance by the Cheek Middle School Honors Band. The ensemble was invited after a recorded audition. Music for All listed the director as Gregory Denson and the school in Aubrey, Texas.",
+      "status": "past"
+    },
+    {
+      "date": "2026-10-02",
+      "time": "",
+      "title": "District announcement of the Mark of Excellence",
+      "place": "Denton ISD",
+      "detail": "Denton ISD announced that the Cheek Middle School Honors Band was a 2026 Mark of Excellence National Winner.",
+      "status": "past"
+    }
+  ],
+  "upcomingNote": "Concerts, recruiting nights, and other dates for the current school year are not posted yet.",
+  "schedule": {
+    "label": "2024–2025 daily schedule",
+    "source": "Last daily schedule published on the band Google Site. It is not labeled as the current year.",
+    "rows": [
+      { "when": "7:00–8:05 a.m.", "what": "Sectionals" },
+      { "when": "8:15–9:00 a.m.", "what": "Period 1 · Conference" },
+      { "when": "9:03–9:48 a.m.", "what": "Period 2 · Beginner clarinet" },
+      { "when": "9:51–10:31 a.m.", "what": "Period 3 · Honors Band" },
+      { "when": "10:33–10:59 a.m.", "what": "Advisory" },
+      { "when": "11:02–11:47 a.m.", "what": "Period 4 · Symphonic Band" },
+      { "when": "12:24–1:10 p.m.", "what": "Period 5 · Beginner flute / beginner trombone" },
+      { "when": "1:13–1:59 p.m.", "what": "Period 6 · Beginner saxophone / beginner horn" },
+      { "when": "2:02–2:47 p.m.", "what": "Period 7 · Beginner trumpet / beginner percussion" },
+      { "when": "2:50–3:35 p.m.", "what": "Period 8 · Beginner oboe and bassoon / beginner tuba and euphonium" },
+      { "when": "3:45–4:45 p.m.", "what": "Sectionals" }
+    ]
+  },
+  "beginning": {
+    "who": "The last published screening was for all incoming sixth graders and any current sixth or seventh graders who wanted to join band.",
+    "lastScreening": {
+      "when": "Saturday, April 12, 2025",
+      "where": "Cheek Middle School cafeteria, 200 Denton Way, Aubrey, TX 76227",
+      "notes": [
+        "Families were told to enter through doors 12 and 13, across from the football stadium.",
+        "The program said that screening was the only date, that beginners had to be screened to be placed in a class, and that students who missed it would not be allowed to join.",
+        "A parent or guardian was asked to stay with the student. The visit was about 50 minutes.",
+        "Students rotated through instrument stations. The program asked them to try more than one instrument."
+      ]
+    },
+    "why": "The program's published explanation is that people and instruments are different, and an instrument that is a poor fit makes band harder to enjoy. Specialists at each station help find the instrument a student is most likely to succeed on.",
+    "learns": [
+      "Self-confidence",
+      "Coordination",
+      "Teamwork",
+      "Comprehension",
+      "Problem solving",
+      "Discipline",
+      "Arts appreciation",
+      "Reasoning",
+      "Communicating",
+      "Conceptualizing",
+      "Value judgments",
+      "Accountability"
+    ]
+  },
+  "instruments": [
+    { "name": "Flute", "blurb": "A silver woodwind. The player sends air across the tone hole." },
+    { "name": "Clarinet", "blurb": "A single-reed woodwind." },
+    { "name": "Oboe", "blurb": "A double-reed woodwind." },
+    { "name": "Bassoon", "blurb": "A larger double-reed woodwind and the lowest of the common double reeds." },
+    { "name": "Saxophone", "blurb": "A single-reed woodwind with a curved metal body." },
+    { "name": "Trumpet", "blurb": "A brass instrument played with a cup mouthpiece." },
+    { "name": "French horn", "blurb": "A coiled brass instrument. The published class list calls this Horn." },
+    { "name": "Trombone", "blurb": "A brass instrument that uses a slide." },
+    { "name": "Euphonium", "blurb": "A tenor brass instrument with a warm sound." },
+    { "name": "Tuba", "blurb": "The lowest brass instrument in the band." },
+    { "name": "Percussion", "blurb": "Drums, mallet keyboards, and accessories. Beginner percussionists learn more than one instrument." }
+  ],
+  "documents": [
+    { "title": "Band handbook", "href": "", "note": "The handbook PDF is not posted yet.", "placeholder": true },
+    { "title": "Supply list", "href": "", "note": "Instrument supply lists are not posted yet.", "placeholder": true },
+    { "title": "Forms and permissions", "href": "", "note": "Registration, rental, and permission forms are not posted yet.", "placeholder": true }
+  ],
+  "achievements": [
+    {
+      "title": "2026 Mark of Excellence National Winner",
+      "kicker": "Foundation for Music Education",
+      "summary": "The Cheek Middle School Honors Band was named a 2026 Mark of Excellence National Winner in National Wind Band Honors, Band Class A. Denton ISD reported that only 16 other middle school band programs in the country received this award.",
+      "quote": "These national accolades reflect the exceptional artistry, effort, and dedication of Denton ISD student musicians and educators. To have two of our programs recognized among the absolute finest in the country is a testament to the culture of excellence cultivated in our music classrooms every day.",
+      "quoteBy": "Eddy Russell, Denton ISD Director of Fine Arts, October 2, 2026",
+      "href": "https://www.dentonisd.org/post-details/~board/district-headlines/post/mark-excellence-2026",
+      "linkLabel": "Read the Denton ISD announcement"
+    },
+    {
+      "title": "Music for All National Festival, 2026",
+      "kicker": "Indianapolis · March 26–28, 2026",
+      "summary": "The Honors Band was one of 52 scholastic ensembles invited to the 2026 Music for All National Festival, presented by Yamaha. Cheek performed on Friday, March 27, 2026, at 2:00 p.m. at the Howard L. Schrott Center for the Arts on the Butler University campus. Ensembles were chosen by recorded audition.",
+      "quote": "",
+      "quoteBy": "",
+      "href": "https://musicforall.org/music-for-all-announces-ensembles-invited-to-perform-at-the-2026-music-for-all-national-festival-presented-by-yamaha/",
+      "linkLabel": "Read the Music for All invitation list"
+    }
+  ],
+  "uil": {
+    "placeholder": true,
+    "text": "UIL concert and sight-reading results are not listed on this site yet. Ratings will appear here only after the directors add them to the site data file."
+  },
+  "gallery": [
+    {
+      "src": "/images/honors-band-2026.webp",
+      "alt": "Cheek Middle School Honors Band standing in concert dress on a lawn, published in the 2026 Music for All National Festival program",
+      "caption": "Honors Band, published in the 2026 Music for All National Festival program.",
+      "placeholder": false
+    },
+    {
+      "src": "",
+      "alt": "",
+      "caption": "Concert and rehearsal photos",
+      "placeholder": true
+    },
+    {
+      "src": "",
+      "alt": "",
+      "caption": "Beginning band and section photos",
+      "placeholder": true
+    }
+  ],
+  "lessons": {
+    "intro": "The program describes private lessons as one of the fastest ways for a student to build individual skill. A teacher hears the student every week and can work on skills that a full-band rehearsal cannot cover one student at a time. Lessons can be before school, during band class, or after school, depending on the student and the teacher.",
+    "fee": "$20",
+    "feeNote": "The band Google Site lists private lessons at $20. Confirm the current fee with Dr. Denson before enrolling. This page will show a new number when it is updated in the site data file.",
+    "aid": "Financial assistance is for families for whom lessons would cause undue hardship. It is not guaranteed, and it does not make lessons free. The program shares the cost with the family. Students who receive assistance agree to participate in band the following school year. Families who withdraw at the end of that year are responsible for repaying the scholarship amount.",
+    "contact": "Questions and placement go through the directors. Email Dr. Denson. Personal emails for lesson teachers are not published on this site.",
+    "staffNote": "Names and instruments below are the list published on the band Google Site under Personal Trainers. The directors should confirm that the list is still current. No private email addresses and no lesson-teacher photos are included."
+  },
+  "lessonStaff": [
+    { "name": "Dr. Sara Raviotta", "instrument": "Flute" },
+    { "name": "Lynne Hudson", "instrument": "Flute" },
+    { "name": "Summer Bruner", "instrument": "Flute" },
+    { "name": "Hayley Monk", "instrument": "Oboe" },
+    { "name": "Robert Richter", "instrument": "Bassoon" },
+    { "name": "Brennan Coffey", "instrument": "Clarinet" },
+    { "name": "Rey Rostro", "instrument": "Clarinet" },
+    { "name": "Dr. Zitian Wang", "instrument": "Saxophone" },
+    { "name": "Brendan Lorenz", "instrument": "Trumpet" },
+    { "name": "Dr. Ben Raviotta", "instrument": "Horn" },
+    { "name": "Kenny Ross", "instrument": "Trombone and euphonium" },
+    { "name": "Scott McLain", "instrument": "Euphonium and trombone" },
+    { "name": "Thomas Oakley", "instrument": "Tuba" },
+    { "name": "Colby Snider", "instrument": "Percussion" }
+  ],
+  "practice": {
+    "intro": "Class-specific assignments, practice tracks, and method-book pages are not posted yet. Until the directors add them, this is a general practice pattern families can use. It is not a Cheek assignment.",
+    "steps": [
+      { "title": "Set up the same way every day", "text": "Put the music stand where the student can see it, check the reed or mouthpiece, and set a metronome before the first note." },
+      { "title": "Warm up", "text": "Long tones, a slow scale, and a few easy rhythms. Five quiet minutes here make the assignment easier." },
+      { "title": "Work a short section", "text": "Take the hardest four measures, play them slowly, and only speed up when they are correct three times in a row." },
+      { "title": "Record one minute", "text": "Play the passage once and listen back. Students hear rushing, missed notes, and tone more clearly than they do while playing." },
+      { "title": "Pack up", "text": "Swab or empty water, and put the instrument where it will leave the house for school." }
+    ],
+    "links": []
+  },
+  "boosters": {
+    "intro": "A booster club page, volunteer sign-up, and fundraiser link have not been published for this site. Families who want to help can write the directors. Concert dates, when they are posted, are the most direct way to support the students.",
+    "needs": [
+      { "title": "Booster meetings", "note": "Meeting day, time, and location are not posted yet.", "placeholder": true },
+      { "title": "Volunteer roles", "note": "Chaperone, uniform, and concession sign-ups are not posted yet.", "placeholder": true },
+      { "title": "Donations and fundraisers", "note": "Do not send money until the directors publish an official link here.", "placeholder": true }
+    ]
+  },
+  "practiceLinksPlaceholder": "Recordings, SmartMusic or other assignments, and fingering charts will be linked here when the directors add URLs.",
+  "sources": [
+    { "label": "Cheek Middle School Band Google Site", "href": "https://sites.google.com/view/cheekband/home" },
+    { "label": "Cheek Middle School, Denton ISD", "href": "https://cheekms.dentonisd.org/academics/band" },
+    { "label": "Denton ISD Mark of Excellence announcement, October 2, 2026", "href": "https://www.dentonisd.org/post-details/~board/district-headlines/post/mark-excellence-2026" },
+    { "label": "Music for All invitation announcement, August 15, 2025", "href": "https://musicforall.org/music-for-all-announces-ensembles-invited-to-perform-at-the-2026-music-for-all-national-festival-presented-by-yamaha/" },
+    { "label": "2026 Music for All National Festival program (Cheek Honors Band)", "href": "https://festival.musicforall.org/wp-content/uploads/sites/8/2026/03/026-MFA-Festival-Program_Full-Web.pdf" },
+    { "label": "2026 festival spectator schedule", "href": "https://festival.musicforall.org/spectatorguide/" }
+  ],
+  "todos": [
+    { "id": "staff-roster", "page": "About", "task": "Confirm the current director roster. The campus directory lists Dr. Denson and Eithan Moreno. The program biography and the March 2026 festival program list Daney Glover as associate director." },
+    { "id": "moreno-bio", "page": "About", "task": "Add Eithan Moreno's title, biography, and a photo the directors approve." },
+    { "id": "calendar", "page": "Calendar", "task": "Add the current year's concerts and events to the events array. Use status \"upcoming\"." },
+    { "id": "bell-schedule", "page": "Calendar", "task": "Replace the 2024–2025 daily schedule with the current bell schedule, or remove it if it should not be shown." },
+    { "id": "screening", "page": "Beginners", "task": "Post the next instrument-screening date, time, and signup link. The April 12, 2025 screening is in the past." },
+    { "id": "handbook", "page": "Families", "task": "Upload the handbook PDF to public/files and set documents[0].href." },
+    { "id": "supplies", "page": "Families", "task": "Add the supply list. Do not guess brands." },
+    { "id": "forms", "page": "Families", "task": "Add permission, rental, and trip forms." },
+    { "id": "uil", "page": "Achievements", "task": "Add UIL concert and sight-reading ratings only after they are confirmed. Set uil.placeholder to false and replace uil.text." },
+    { "id": "lesson-fee", "page": "Lessons", "task": "Confirm the private-lesson fee. The Google Site figure of $20 may be out of date." },
+    { "id": "lesson-staff", "page": "Lessons", "task": "Confirm the lesson-teacher list. Do not add personal emails or headshots." },
+    { "id": "boosters", "page": "Support", "task": "Add booster meeting details and any official payment link." },
+    { "id": "practice-links", "page": "Practice", "task": "Add practice tracks, method-book pages, and class links to practice.links as {title, href}." },
+    { "id": "gallery", "page": "Gallery", "task": "Add WebP or JPG photos under public/images (aim for under 300KB) and fill the empty gallery items." },
+    { "id": "concert-band-name", "page": "Ensembles", "task": "Confirm the name of the third concert ensemble. Concert Band is named in Mr. Glover's 2026 biography." },
+    { "id": "netlify-form", "page": "Contact", "task": "After deploy, turn on Netlify Forms and send notifications to the directors." }
+  ]
+}

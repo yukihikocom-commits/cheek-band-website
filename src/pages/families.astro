@@ -1,0 +1,62 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import Placeholder from '../components/Placeholder.astro';
+import { site } from '../lib/content';
+---
+
+<Base
+  title="Families"
+  description="Handbook, forms, and supply lists for Cheek Middle School Band families."
+>
+  <PageHero
+    kicker="For families"
+    title="Handbook and forms"
+    lede="The handbook, supply list, and permission forms will live here. Until those files are added, email the directors and they can send what you need."
+  />
+
+  <section class="section">
+    <div class="wrap grid cards three">
+      {
+        site.documents.map((doc) => (
+          <article class="card">
+            <h2>{doc.title}</h2>
+            {doc.href ? (
+              <p>
+                <a href={doc.href}>Open {doc.title}</a>
+              </p>
+            ) : (
+              <Placeholder>
+                <p>{doc.note}</p>
+              </Placeholder>
+            )}
+          </article>
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="section" style="padding-top: 0;">
+    <div class="wrap grid cards two">
+      <article class="card">
+        <h2>While you wait</h2>
+        <ul class="plain-list">
+          <li><a href="/beginning-band">Beginning band and instrument fitting</a></li>
+          <li><a href="/calendar#schedule">Last published daily schedule</a></li>
+          <li><a href="/lessons">Private lessons</a></li>
+          <li><a href="/practice">A general practice pattern</a></li>
+          <li><a href="/contact">Email a director</a></li>
+        </ul>
+      </article>
+      <article class="card">
+        <h2>School office</h2>
+        <p>
+          {site.address.line}<br />
+          {site.address.city}, {site.address.state} {site.address.zip}
+        </p>
+        <p><a href={site.phoneHref}>{site.phone}</a></p>
+        <p>Principal {site.principal}</p>
+      </article>
+    </div>
+  </section>
+</Base>

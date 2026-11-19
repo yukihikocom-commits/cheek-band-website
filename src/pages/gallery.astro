@@ -1,0 +1,56 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import Placeholder from '../components/Placeholder.astro';
+import { site } from '../lib/content';
+---
+
+<Base
+  title="Gallery"
+  description="Photographs and video from the Cheek Middle School Band."
+>
+  <PageHero
+    kicker="Photos and video"
+    title="Gallery"
+    lede="The Honors Band photograph below is the one published in the 2026 Music for All program. More photos will be added as the directors place them in the site data file."
+  />
+
+  <section class="section">
+    <div class="wrap grid gallery">
+      {
+        site.gallery.map((item) =>
+          item.src ? (
+            <figure class="shot">
+              <img src={item.src} alt={item.alt} width="1112" height="340" />
+              <figcaption>{item.caption}</figcaption>
+            </figure>
+          ) : (
+            <Placeholder>
+              <p>{item.caption} — coming soon.</p>
+            </Placeholder>
+          ),
+        )
+      }
+    </div>
+  </section>
+
+  <section class="section" style="padding-top: 0;">
+    <div class="wrap">
+      <h2>{site.video.title}</h2>
+      <div class="video">
+        <iframe
+          src={`https://www.youtube-nocookie.com/embed/${site.video.id}`}
+          title={site.video.title}
+          loading="lazy"
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+          referrerpolicy="strict-origin-when-cross-origin"
+        ></iframe>
+      </div>
+      <p class="muted">
+        {site.video.credit}
+        <a href={`https://www.youtube.com/watch?v=${site.video.id}`}>Open on YouTube</a>.
+      </p>
+    </div>
+  </section>
+</Base>

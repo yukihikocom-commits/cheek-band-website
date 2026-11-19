@@ -1,0 +1,66 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import Placeholder from '../components/Placeholder.astro';
+import { site } from '../lib/content';
+---
+
+<Base
+  title="Private Lessons"
+  description="Private lesson information for Cheek Middle School Band. Contact the directors to be placed with a teacher."
+>
+  <PageHero
+    kicker="Individual study"
+    title="Private lessons"
+    lede={site.lessons.intro}
+  />
+
+  <section class="section">
+    <div class="wrap grid cards two">
+      <article class="card">
+        <h2>Fee</h2>
+        <p>Last published fee: <strong>{site.lessons.fee}</strong> a lesson.</p>
+        <p>{site.lessons.feeNote}</p>
+        <Placeholder label="Coming soon">
+          <p>Treat $20 as the last published figure, not a guarantee for this school year.</p>
+        </Placeholder>
+      </article>
+      <article class="card">
+        <h2>Financial assistance</h2>
+        <p>{site.lessons.aid}</p>
+        <p>
+          {site.lessons.contact}
+          {' '}
+          <a href="mailto:gdenson@dentonisd.org">gdenson@dentonisd.org</a>
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top: 0;">
+    <div class="wrap">
+      <h2>Teachers by instrument</h2>
+      <p>{site.lessons.staffNote}</p>
+      <div class="scroll">
+      <table class="staff-table">
+        <thead>
+          <tr>
+            <th scope="col">Teacher</th>
+            <th scope="col">Instrument</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            site.lessonStaff.map((teacher) => (
+              <tr>
+                <td>{teacher.name}</td>
+                <td>{teacher.instrument}</td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+      </div>
+    </div>
+  </section>
+</Base>

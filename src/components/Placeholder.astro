@@ -1,0 +1,12 @@
+---
+interface Props {
+  label?: string;
+}
+
+const { label = 'Coming soon' } = Astro.props;
+---
+
+<aside class="placeholder">
+  <p class="placeholder-label">{label}</p>
+  <slot />
+</aside>

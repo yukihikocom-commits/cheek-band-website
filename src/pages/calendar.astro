@@ -1,0 +1,85 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import Placeholder from '../components/Placeholder.astro';
+import { formatDate, site } from '../lib/content';
+
+const upcoming = site.events.filter((event) => event.status === 'upcoming');
+const past = site.events.filter((event) => event.status === 'past');
+---
+
+<Base
+  title="Calendar"
+  description="Cheek Middle School Band events and the last published daily schedule."
+>
+  <PageHero
+    kicker="Dates"
+    title="Calendar"
+    lede="Published performances are listed below. The current concert calendar is still open for the directors to fill in."
+  />
+
+  <section class="section">
+    <div class="wrap">
+      <h2>Upcoming</h2>
+      {
+        upcoming.length === 0 ? (
+          <Placeholder>
+            <p>{site.upcomingNote}</p>
+          </Placeholder>
+        ) : (
+          <div class="grid cards">
+            {upcoming.map((event) => (
+              <article class="card">
+                <p class="kicker">{formatDate(event.date)}{event.time ? ` · ${event.time}` : ''}</p>
+                <h3>{event.title}</h3>
+                <p>{event.place}</p>
+                <p>{event.detail}</p>
+              </article>
+            ))}
+          </div>
+        )
+      }
+    </div>
+  </section>
+
+  <section class="section" style="padding-top: 0;">
+    <div class="wrap">
+      <h2>Already held</h2>
+      <div class="grid cards">
+        {
+          past.map((event) => (
+            <article class="card">
+              <p class="kicker">
+                {formatDate(event.date)}
+                {event.time ? ` · ${event.time}` : ''}
+              </p>
+              <h3>{event.title}</h3>
+              <p>{event.place}</p>
+              <p>{event.detail}</p>
+            </article>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="schedule" style="padding-top: 0;">
+    <div class="wrap">
+      <h2>{site.schedule.label}</h2>
+      <p class="muted">{site.schedule.source}</p>
+      <Placeholder label="Current schedule coming soon">
+        <p>The daily schedule for the current school year is not posted yet. The list below is the 2024–2025 schedule from the band Google Site.</p>
+      </Placeholder>
+      <ul class="schedule">
+        {
+          site.schedule.rows.map((row) => (
+            <li>
+              <span class="when">{row.when}</span>
+              <span>{row.what}</span>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+</Base>

@@ -1,0 +1,41 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import Placeholder from '../components/Placeholder.astro';
+import { site } from '../lib/content';
+---
+
+<Base
+  title="Support"
+  description="How families can support the Cheek Middle School Band. Booster details are added by the directors."
+>
+  <PageHero
+    kicker="Boosters and families"
+    title="Support the band"
+    lede={site.boosters.intro}
+  />
+
+  <section class="section">
+    <div class="wrap grid cards three">
+      {
+        site.boosters.needs.map((item) => (
+          <article class="card">
+            <h2>{item.title}</h2>
+            {item.placeholder ? (
+              <Placeholder>
+                <p>{item.note}</p>
+              </Placeholder>
+            ) : (
+              <p>{item.note}</p>
+            )}
+          </article>
+        ))
+      }
+    </div>
+    <div class="wrap">
+      <p>
+        <a class="btn btn-ink" href="/contact">Contact the directors</a>
+      </p>
+    </div>
+  </section>
+</Base>
