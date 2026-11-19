@@ -1,0 +1,30 @@
+---
+interface Props {
+  slug: string;
+  alt: string;
+  sizes?: string;
+  class?: string;
+  eager?: boolean;
+  folder?: string;
+}
+
+const {
+  slug,
+  alt,
+  sizes = '100vw',
+  class: className,
+  eager = false,
+  folder = 'photos',
+} = Astro.props;
+const base = `/images/${folder}/${slug}`;
+---
+
+<img
+  class={className}
+  src={`${base}.webp`}
+  srcset={`${base}-800.webp 800w, ${base}.webp 1600w`}
+  sizes={sizes}
+  alt={alt}
+  loading={eager ? 'eager' : 'lazy'}
+  decoding="async"
+/>

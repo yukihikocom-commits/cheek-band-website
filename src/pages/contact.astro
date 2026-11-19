@@ -1,0 +1,105 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import { site } from '../lib/content';
+
+const sent = Astro.url.searchParams.get('sent') === '1';
+---
+
+<Base
+  title="Contact"
+  description="Email the Cheek Middle School Band directors or send a note through the site form."
+>
+  <PageHero
+    kicker={site.tagline}
+    title="Contact"
+    lede="Email a director, or use the form. The form is delivered by Netlify after the site is deployed. Until then, the email addresses below are the way to reach the band."
+    photo="campus"
+    photoAlt="Students gathered in front of the Cheek Middle School building"
+    folder="school"
+  />
+
+  <section class="section">
+    <div class="wrap grid cards two">
+      <div>
+        {
+          sent && (
+            <p class="sent" role="status">
+              If this site is deployed on Netlify, your note was sent. If you are viewing a local preview, use the email addresses instead.
+            </p>
+          )
+        }
+        <form
+          class="form"
+          name="contact"
+          method="POST"
+          action="/contact?sent=1"
+          data-netlify="true"
+          netlify-honeypot="company"
+        >
+          <input type="hidden" name="form-name" value="contact" />
+          <p class="hp">
+            <label>
+              Company
+              <input name="company" tabindex="-1" autocomplete="off" />
+            </label>
+          </p>
+          <label>
+            Your name
+            <input name="name" type="text" required autocomplete="name" />
+          </label>
+          <label>
+            Email
+            <input name="email" type="email" required autocomplete="email" />
+          </label>
+          <label>
+            Student name <span class="muted">(optional)</span>
+            <input name="student" type="text" autocomplete="off" />
+          </label>
+          <label>
+            Topic
+            <select name="topic">
+              <option>Beginning band</option>
+              <option>Private lessons</option>
+              <option>Calendar</option>
+              <option>Boosters</option>
+              <option>Something else</option>
+            </select>
+          </label>
+          <label>
+            Message
+            <textarea name="message" required></textarea>
+          </label>
+          <button class="btn" type="submit">Send</button>
+        </form>
+      </div>
+      <div>
+        <article class="card">
+          <h2>Directors</h2>
+          <ul class="plain-list">
+            {
+              site.directors.map((person) => (
+                <li>
+                  <strong>{person.name}</strong>, {person.role}<br />
+                  <a href={`mailto:${person.email}`}>{person.email}</a><br />
+                  {person.phone}
+                </li>
+              ))
+            }
+          </ul>
+        </article>
+        <article class="card" style="margin-top: 1rem;">
+          <h2>Campus</h2>
+          <p>
+            {site.address.line}<br />
+            {site.address.city}, {site.address.state} {site.address.zip}
+          </p>
+          <p>
+            <a href={site.phoneHref}>{site.phone}</a><br />
+            <a href={site.address.maps}>Directions</a>
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+</Base>

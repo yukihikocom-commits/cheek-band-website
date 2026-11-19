@@ -1,0 +1,42 @@
+---
+import { site } from '../lib/content';
+---
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <h2>Visit</h2>
+      <p>
+        {site.address.line}<br />
+        {site.address.city}, {site.address.state} {site.address.zip}
+      </p>
+      <p>
+        <a href={site.phoneHref}>{site.phone}</a><br />
+        <a href={site.address.maps}>Get directions</a>
+      </p>
+    </div>
+    <div>
+      <h2>School</h2>
+      <ul>
+        <li><a href={site.links.school}>Cheek Middle School</a></li>
+        <li><a href={site.links.district}>Denton ISD</a></li>
+        <li><a href={site.links.googleSite}>Existing band Google Site</a></li>
+        <li><a href={site.links.braswell}>Braswell High School Band</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Follow</h2>
+      <ul>
+        <li><a href={site.links.instagram}>Instagram {site.links.instagramHandle}</a></li>
+        <li><a href={site.links.facebook}>Facebook</a></li>
+        <li><a href="/contact">Contact the directors</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap legal">
+    <p>
+      This is a band information site for families. It is not the official Denton ISD website.
+      The Cheek Middle School and Chargers logos belong to Denton ISD and Cheek Middle School.
+    </p>
+  </div>
+</footer>

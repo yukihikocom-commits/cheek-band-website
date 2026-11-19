@@ -1,0 +1,37 @@
+---
+import { site, isCurrent } from '../lib/content';
+
+const path = Astro.url.pathname;
+---
+
+<header class="site-header">
+  <div class="header-bar">
+    <a class="brand" href="/">
+      <img
+        src={site.images.logoWide}
+        alt={site.images.logoAlt}
+        width="900"
+        height="746"
+      />
+    </a>
+    <input class="nav-check" type="checkbox" id="nav-toggle" />
+    <label class="nav-toggle" for="nav-toggle">
+      <span class="when-closed">Menu</span>
+      <span class="when-open">Close</span>
+    </label>
+    <nav class="site-nav" id="site-nav" aria-label="Primary">
+      <ul>
+        {
+          site.nav.map((item) => (
+            <li>
+              <a href={item.href} aria-current={isCurrent(path, item.href) ? 'page' : undefined}>
+                {item.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+  </div>
+  <div class="charger-bar" aria-hidden="true"></div>
+</header>

@@ -1,0 +1,139 @@
+---
+import Base from '../layouts/Base.astro';
+import Photo from '../components/Photo.astro';
+import { site } from '../lib/content';
+
+const directors = site.directors.filter((person) => person.photo);
+---
+
+<Base title={site.name} description={site.description}>
+  <img class="hero-banner" src={site.images.logoBanner} alt="" width="1600" height="609" />
+  <Photo
+    class="hero-photo"
+    slug={site.images.hero}
+    alt={site.images.heroAlt}
+    sizes="100vw"
+    eager
+  />
+  <section class="hero-panel">
+    <div class="wrap">
+      <p class="kicker">{site.tagline}</p>
+      <h1>Cheek Middle School Band</h1>
+      <p class="lede">
+        The Chargers band. Grades 6–8. The largest organization on the Cheek campus, and a feeder for the Braswell High School Band.
+      </p>
+      <div class="actions">
+        <a class="btn" href="/beginning-band">Join beginning band</a>
+        <a class="btn btn-ghost" href="/achievements">2026 national winner</a>
+      </div>
+      <div class="stats">
+        <p class="stat">
+          <strong>280+</strong>
+          <span>students in grades 6–8</span>
+        </p>
+        <p class="stat">
+          <strong>3</strong>
+          <span>concert ensembles, plus jazz and percussion</span>
+        </p>
+        <p class="stat">
+          <strong>2026</strong>
+          <span>Mark of Excellence national winner</span>
+        </p>
+      </div>
+      <p class="credit">{site.images.heroCredit}</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>This season</h2>
+        <a href="/calendar">Calendar</a>
+      </div>
+      <div class="grid cards two">
+        <article class="card">
+          <p class="kicker">National Wind Band Honors</p>
+          <h3>Mark of Excellence</h3>
+          <p>
+            The Honors Band was named a 2026 Mark of Excellence National Winner, Band Class A. Denton ISD reported that only 16 other middle school band programs received the award.
+          </p>
+          <a class="more" href="/achievements">See the record</a>
+        </article>
+        <article class="card">
+          <p class="kicker">Indianapolis · March 27, 2026</p>
+          <h3>Music for All</h3>
+          <p>
+            The Honors Band performed at the Music for All National Festival at 2:00 p.m. in the Howard L. Schrott Center for the Arts.
+          </p>
+          <a class="more" href="/ensembles">Honors Band repertoire</a>
+        </article>
+      </div>
+      <p class="note">
+        Concert dates, the handbook, and the current bell schedule are marked Coming soon until the directors add them.
+      </p>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top: 0;">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>The program</h2>
+        <a href="/ensembles">All ensembles</a>
+      </div>
+      <div class="grid cards three">
+        {
+          site.ensembles.slice(0, 3).map((ensemble) => (
+            <article class="card">
+              <h3>{ensemble.name}</h3>
+              <p>{ensemble.summary}</p>
+            </article>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top: 0;">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Directors</h2>
+        <a href="/about">Full biographies</a>
+      </div>
+      <div class="grid cards two">
+        {
+          directors.map((person) => (
+            <article class="card">
+              <h3>{person.name}</h3>
+              <p class="role">{person.role}</p>
+              <p>
+                <a href={`mailto:${person.email}`}>{person.email}</a>
+              </p>
+            </article>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top: 0;">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Hear the band</h2>
+      </div>
+      <div class="video">
+        <iframe
+          src={`https://www.youtube-nocookie.com/embed/${site.video.id}`}
+          title={site.video.title}
+          loading="lazy"
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+          referrerpolicy="strict-origin-when-cross-origin"
+        ></iframe>
+      </div>
+      <p class="muted">
+        {site.video.title}. {site.video.credit}
+        <a href={`https://www.youtube.com/watch?v=${site.video.id}`}>Watch on YouTube</a>.
+      </p>
+    </div>
+  </section>
+</Base>

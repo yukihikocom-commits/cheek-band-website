@@ -1,0 +1,30 @@
+---
+import Photo from './Photo.astro';
+
+interface Props {
+  kicker: string;
+  title: string;
+  lede: string;
+  photo: string;
+  photoAlt: string;
+  folder?: string;
+}
+
+const { kicker, title, lede, photo, photoAlt, folder = 'photos' } = Astro.props;
+---
+
+<header class="page-hero">
+  <Photo
+    class="page-photo"
+    slug={photo}
+    alt={photoAlt}
+    folder={folder}
+    sizes="100vw"
+    eager
+  />
+  <div class="wrap">
+    <p class="kicker">{kicker}</p>
+    <h1>{title}</h1>
+    <p class="lede">{lede}</p>
+  </div>
+</header>

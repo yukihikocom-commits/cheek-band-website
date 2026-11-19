@@ -1,0 +1,19 @@
+---
+import { site } from '../lib/content';
+---
+
+<section class="section">
+  <div class="wrap">
+    <h2>Sources</h2>
+    <p class="muted">Facts on this site come from the program and the district. Items still waiting on the directors are marked Coming soon.</p>
+    <ul class="sources">
+      {
+        site.sources.map((source) => (
+          <li>
+            <a href={source.href}>{source.label}</a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</section>

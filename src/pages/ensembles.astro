@@ -1,0 +1,69 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import Photo from '../components/Photo.astro';
+import Placeholder from '../components/Placeholder.astro';
+import { site } from '../lib/content';
+---
+
+<Base
+  title="Ensembles"
+  description="Honors Band, Symphonic Band, Concert Band, Jazz Band, beginning classes, and percussion at Cheek Middle School."
+>
+  <PageHero
+    kicker="Grades 6–8"
+    title="Ensembles"
+    lede="Three concert ensembles, jazz band, beginning instrument classes, and percussion. Current rehearsal music, other than the 2026 festival program, will be added by the directors."
+    photo="34-concert-stage-wide-2"
+    photoAlt="Wide view of a Cheek winter concert, the band in black on stage"
+  />
+
+  <section class="section">
+    <div class="wrap grid" style="gap: 1.5rem;">
+      {
+        site.ensembles.map((ensemble) => (
+          <article class="card">
+            {ensemble.photo && (
+              <Photo
+                class="card-photo"
+                slug={ensemble.photo}
+                alt={ensemble.photoAlt}
+                sizes="(min-width: 900px) 70vw, 100vw"
+              />
+            )}
+            <h2>{ensemble.name}</h2>
+            <p>{ensemble.summary}</p>
+            {ensemble.repertoire.length > 0 ? (
+              <>
+                <h3>{ensemble.repertoireTitle}</h3>
+                <div class="scroll">
+                <table class="repertoire">
+                  <thead>
+                    <tr>
+                      <th scope="col">Title</th>
+                      <th scope="col">Composer</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {ensemble.repertoire.map((piece) => (
+                      <tr>
+                        <td>{piece.title}</td>
+                        <td>{piece.composer}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+                </div>
+                {ensemble.repertoireNote && <p class="muted">{ensemble.repertoireNote}</p>}
+              </>
+            ) : (
+              <Placeholder>
+                <p>Current repertoire for {ensemble.name} is coming soon.</p>
+              </Placeholder>
+            )}
+          </article>
+        ))
+      }
+    </div>
+  </section>
+</Base>

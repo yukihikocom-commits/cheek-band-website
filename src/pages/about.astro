@@ -1,0 +1,98 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import Photo from '../components/Photo.astro';
+import Placeholder from '../components/Placeholder.astro';
+import Sources from '../components/Sources.astro';
+import { site } from '../lib/content';
+---
+
+<Base
+  title="About"
+  description="Directors, campus, and the Cheek Middle School Band program in Denton ISD."
+>
+  <PageHero
+    kicker="About the program"
+    title="Directors"
+    lede={site.program.summary}
+    photo="33-winter-concert-stage"
+    photoAlt="A Cheek band concert on stage, with the conductor in front of the ensemble"
+  />
+
+  <section class="section">
+    <div class="wrap">
+      <div class="grid" style="gap: 1.25rem;">
+        {
+          site.directors.map((person) => (
+            <article class="director">
+              {person.photo ? (
+                <img src={person.photo} alt={person.photoAlt} width="168" height="234" />
+              ) : (
+                <div class="portrait-missing">Photo coming soon</div>
+              )}
+              <div>
+                <h2>{person.name}</h2>
+                <p class="role">{person.role}</p>
+                <p class="contact-line">
+                  <a href={`mailto:${person.email}`}>{person.email}</a>
+                </p>
+                <p class="contact-line">{person.phone}</p>
+                {person.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
+                {person.placeholder && (
+                  <Placeholder>
+                    <p>Biography coming soon. The directors can add it in the site data file.</p>
+                  </Placeholder>
+                )}
+                {'note' in person && person.note && <p class="note">{person.note}</p>}
+                {person.photoCredit && <p class="muted">{person.photoCredit}</p>}
+              </div>
+            </article>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top: 0;">
+    <div class="wrap">
+      <figure class="shot director-feature">
+        <Photo
+          slug="director-euphonium"
+          alt="A Cheek band director playing euphonium outdoors. The band published this photo on its directors page."
+          sizes="(min-width: 900px) 70rem, 100vw"
+        />
+        <figcaption>
+          Published on the band’s directors page. The photo shows a director with a euphonium. The directors can add the name in the site data file.
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top: 0;">
+    <div class="wrap grid cards two">
+      <article class="card">
+        <h2>Campus</h2>
+        <img src={site.images.schoolLogo} alt="Cheek Middle School Chargers logo" width="280" height="94" />
+        <p>{site.program.placeNote}</p>
+        <p>Principal: {site.principal}</p>
+        <p>
+          <a href={site.phoneHref}>{site.phone}</a><br />
+          <a href={site.address.maps}>
+            {site.address.line}, {site.address.city}, {site.address.state} {site.address.zip}
+          </a>
+        </p>
+        <p>
+          <a href={site.links.school}>Cheek Middle School</a>
+        </p>
+      </article>
+      <article class="card">
+        <h2>After Cheek</h2>
+        <p>{site.program.feeder}</p>
+        <p>
+          <a href={site.links.braswell}>Braswell High School Band</a>
+        </p>
+      </article>
+    </div>
+  </section>
+  <Sources />
+</Base>

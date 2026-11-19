@@ -1,0 +1,57 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import Placeholder from '../components/Placeholder.astro';
+import Sources from '../components/Sources.astro';
+import { site } from '../lib/content';
+---
+
+<Base
+  title="Achievements"
+  description="Cheek Middle School Honors Band honors, including the 2026 Mark of Excellence and the Music for All National Festival."
+>
+  <PageHero
+    kicker="Honors Band"
+    title="Achievements"
+    lede="National recognition published by Denton ISD and Music for All. Earlier honors in a director biography that belong to a previous school are kept on the About page, not here."
+    photo="17-band-performing-gym"
+    photoAlt="The Cheek band performing in the school gym while a director conducts"
+  />
+
+  <section class="section">
+    <div class="wrap grid" style="gap: 1.25rem;">
+      {
+        site.achievements.map((item) => (
+          <article class="card">
+            <p class="kicker">{item.kicker}</p>
+            <h2>{item.title}</h2>
+            <p>{item.summary}</p>
+            {item.quote && (
+              <blockquote class="quote">
+                <p>{item.quote}</p>
+                <footer>{item.quoteBy}</footer>
+              </blockquote>
+            )}
+            <p>
+              <a href={item.href}>{item.linkLabel}</a>
+            </p>
+          </article>
+        ))
+      }
+      <article class="card">
+        <p class="kicker">University Interscholastic League</p>
+        <h2>UIL</h2>
+        {
+          site.uil.placeholder ? (
+            <Placeholder>
+              <p>{site.uil.text}</p>
+            </Placeholder>
+          ) : (
+            <p>{site.uil.text}</p>
+          )
+        }
+      </article>
+    </div>
+  </section>
+  <Sources />
+</Base>

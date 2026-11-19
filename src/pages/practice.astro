@@ -1,0 +1,58 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import Placeholder from '../components/Placeholder.astro';
+import { site } from '../lib/content';
+---
+
+<Base
+  title="Practice"
+  description="A general practice pattern for Cheek band students, plus a place for director recordings and assignments."
+>
+  <PageHero
+    kicker="At home"
+    title="Practice"
+    lede={site.practice.intro}
+    photo="03-band-room-rehearsal-1"
+    photoAlt="Students rehearsing in the Cheek band room"
+  />
+
+  <section class="section">
+    <div class="wrap">
+      <ol class="steps">
+        {
+          site.practice.steps.map((step) => (
+            <li>
+              <h2>{step.title}</h2>
+              <p>{step.text}</p>
+            </li>
+          ))
+        }
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top: 0;">
+    <div class="wrap">
+      <h2>Director links</h2>
+      {
+        site.practice.links.length === 0 ? (
+          <Placeholder>
+            <p>{site.practiceLinksPlaceholder}</p>
+          </Placeholder>
+        ) : (
+          <ul class="plain-list">
+            {site.practice.links.map((link) => (
+              <li>
+                <a href={link.href}>{link.title}</a>
+              </li>
+            ))}
+          </ul>
+        )
+      }
+      <p>
+        The recruitment video is available on the <a href="/gallery">gallery page</a>.
+      </p>
+    </div>
+  </section>
+</Base>

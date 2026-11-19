@@ -1,0 +1,76 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import Photo from '../components/Photo.astro';
+import Placeholder from '../components/Placeholder.astro';
+import { site } from '../lib/content';
+
+const { beginning } = site;
+---
+
+<Base
+  title="Beginning Band"
+  description="How new Cheek band students are fitted for an instrument, and the instruments the program teaches."
+>
+  <PageHero
+    kicker="New to band"
+    title="Beginning band"
+    lede={beginning.who}
+    photo="01-students-playground-slide"
+    photoAlt="Cheek band students together on a playground slide"
+  />
+
+  <section class="section">
+    <div class="wrap beginner-photos">
+      <Photo slug="11-trombone-student" alt="A Cheek band student with a trombone" sizes="(min-width: 900px) 25vw, 50vw" />
+      <Photo slug="26-trumpet-student-holiday" alt="A Cheek band student playing trumpet beside holiday decorations" sizes="(min-width: 900px) 25vw, 50vw" />
+      <Photo slug="19-students-tuba-euphonium" alt="Cheek band students with tuba and euphonium" sizes="(min-width: 900px) 25vw, 50vw" />
+      <Photo slug="10-students-hallway-percussion" alt="Cheek band students with percussion instruments in a hallway" sizes="(min-width: 900px) 25vw, 50vw" />
+    </div>
+  </section>
+
+  <section class="section" style="padding-top: 0;">
+    <div class="wrap grid cards two">
+      <article class="card">
+        <h2>Why students are fitted</h2>
+        <p>{beginning.why}</p>
+        <h3>What the program says students learn</h3>
+        <ul class="learn-list">
+          {beginning.learns.map((item) => <li>{item}</li>)}
+        </ul>
+      </article>
+      <article class="card">
+        <h2>Next screening</h2>
+        <Placeholder label="Date coming soon">
+          <p>
+            The next instrument-fitting date is not posted. The last date the program published was {beginning.lastScreening.when}, at {beginning.lastScreening.where}.
+          </p>
+        </Placeholder>
+        <h3>How that screening worked</h3>
+        <ul class="plain-list">
+          {beginning.lastScreening.notes.map((note) => <li>{note}</li>)}
+        </ul>
+        <p>
+          <a href="/contact">Ask the directors about the next date</a>
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top: 0;">
+    <div class="wrap">
+      <h2>Instruments</h2>
+      <p>These are the instruments on the program's fitting page. Placement happens at the screening, not from this list.</p>
+      <div class="grid instruments">
+        {
+          site.instruments.map((instrument) => (
+            <article class="instrument">
+              <h3>{instrument.name}</h3>
+              <p>{instrument.blurb}</p>
+            </article>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</Base>

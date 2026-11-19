@@ -1,0 +1,20 @@
+{
+  "name": "cheek-ms-band",
+  "description": "Static website for the Cheek Middle School Band, Denton ISD.",
+  "type": "module",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@fontsource/open-sans": "^5.3.0",
+    "@fontsource/oswald": "^5.3.0",
+    "astro": "^7.4.13"
+  }
+}
