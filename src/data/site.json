@@ -3,8 +3,8 @@
   "name": "Cheek Middle School Band",
   "shortName": "Cheek Band",
   "mascot": "Chargers",
-  "tagline": "Denton ISD · Aubrey / Prosper, Texas",
-  "description": "Cheek Middle School Band is the Chargers band program in Denton ISD, serving grades 6–8 on the Aubrey campus.",
+  "tagline": "Denton ISD \u00b7 Aubrey / Prosper, Texas",
+  "description": "Cheek Middle School Band is the Chargers band program in Denton ISD, serving grades 6\u20138 on the Aubrey campus.",
   "phone": "(972) 347-7680",
   "phoneHref": "tel:+19723477680",
   "address": {
@@ -22,12 +22,14 @@
     "paper": "#F2F3F4"
   },
   "images": {
-    "logo": "/images/cheek-logo.webp",
-    "logoSmall": "/images/cheek-logo-sm.webp",
-    "logoAlt": "Cheek Middle School Chargers logo",
-    "band": "/images/honors-band-2026.webp",
-    "bandAlt": "Cheek Middle School Honors Band standing in concert dress on a lawn, published in the 2026 Music for All National Festival program",
-    "bandCredit": "Photograph published in the 2026 Music for All National Festival program."
+    "logoWide": "/images/logos/band-wide.webp",
+    "logoSquare": "/images/logos/band-square.webp",
+    "logoBanner": "/images/logos/band-banner.webp",
+    "logoAlt": "Cheek Band",
+    "schoolLogo": "/images/logos/school-chargers.webp",
+    "hero": "09-band-room-rehearsal-wide",
+    "heroAlt": "The Cheek band rehearsing together in the band room, woodwinds in front and low brass along the side",
+    "heroCredit": "Photo posted by Cheek Middle School Band."
   },
   "video": {
     "id": "7yXlpM8lchw",
@@ -49,17 +51,50 @@
     "mfaProgram": "https://festival.musicforall.org/wp-content/uploads/sites/8/2026/03/026-MFA-Festival-Program_Full-Web.pdf"
   },
   "nav": [
-    { "href": "/about", "label": "About" },
-    { "href": "/ensembles", "label": "Ensembles" },
-    { "href": "/beginning-band", "label": "Beginners" },
-    { "href": "/calendar", "label": "Calendar" },
-    { "href": "/families", "label": "Families" },
-    { "href": "/achievements", "label": "Achievements" },
-    { "href": "/gallery", "label": "Gallery" },
-    { "href": "/lessons", "label": "Lessons" },
-    { "href": "/practice", "label": "Practice" },
-    { "href": "/boosters", "label": "Support" },
-    { "href": "/contact", "label": "Contact" }
+    {
+      "href": "/about",
+      "label": "About"
+    },
+    {
+      "href": "/ensembles",
+      "label": "Ensembles"
+    },
+    {
+      "href": "/beginning-band",
+      "label": "Beginners"
+    },
+    {
+      "href": "/calendar",
+      "label": "Calendar"
+    },
+    {
+      "href": "/families",
+      "label": "Families"
+    },
+    {
+      "href": "/achievements",
+      "label": "Achievements"
+    },
+    {
+      "href": "/gallery",
+      "label": "Gallery"
+    },
+    {
+      "href": "/lessons",
+      "label": "Lessons"
+    },
+    {
+      "href": "/practice",
+      "label": "Practice"
+    },
+    {
+      "href": "/boosters",
+      "label": "Support"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact"
+    }
   ],
   "program": {
     "summary": "Cheek Middle School Band is the largest organization on campus. It serves more than 280 students in grades 6 through 8. The directors' 2026 Music for All biography describes three concert ensembles, jazz band, beginning instrument classes, and an active percussion program.",
@@ -111,7 +146,7 @@
       "paragraphs": [
         "Daney E. Glover is named Associate Director of Bands in the biography the program published and in the March 2026 Music for All festival program. At Cheek, that biography says he conducts the Symphonic Band, teaches beginning saxophone, trumpet, trombone, euphonium, and tuba, and assists with the Jazz, Concert, and Honors Bands. His festival biography describes the program as serving over 300 students and as the largest organization on campus.",
         "Before Cheek, he was assistant director of bands from 2018 to 2020 and director of bands from 2020 to 2023 at Cooper Middle School in Austell, Georgia, in the Cobb County School District.",
-        "He is an alumnus of Louisiana State University, where he was a member of the tuba and euphonium studio, the Golden Band from Tigerland, the Bengal Brass basketball band, the LSU Symphonic Band, the LSU Symphonic Winds, and the LSU Wind Ensemble. He studied euphonium and conducting with Dr. Joseph Skillen, Dr. Chasse Duplantis, Dr. Damon Talley, Dr. Dennis Llinàs, Dr. Kelvin Jones, Dr. Jaclyn Hartenberger, and Dr. Jack A. Eaddy Jr.",
+        "He is an alumnus of Louisiana State University, where he was a member of the tuba and euphonium studio, the Golden Band from Tigerland, the Bengal Brass basketball band, the LSU Symphonic Band, the LSU Symphonic Winds, and the LSU Wind Ensemble. He studied euphonium and conducting with Dr. Joseph Skillen, Dr. Chasse Duplantis, Dr. Damon Talley, Dr. Dennis Llin\u00e0s, Dr. Kelvin Jones, Dr. Jaclyn Hartenberger, and Dr. Jack A. Eaddy Jr.",
         "He played euphonium in the Cobb Wind Symphony under Alfred L. Watkins and has worked as a clinician with middle and high school bands in Georgia and the DFW metroplex. The published biography lists memberships in the Minority Band Directors National Association, the Texas Music Educators Association, the Texas Bandmasters Association, Kappa Kappa Psi, and Phi Beta Sigma."
       ]
     }
@@ -122,49 +157,79 @@
       "summary": "The Honors Band is the ensemble invited to the 2026 Music for All National Festival and named a 2026 Mark of Excellence National Winner in National Wind Band Honors, Band Class A. Dr. Denson is the director. Mr. Glover's published role includes assisting with the Honors Band.",
       "repertoireTitle": "Music performed at the 2026 Music for All National Festival",
       "repertoire": [
-        { "title": "Inspiration Fanfare", "composer": "Adrian Sims" },
-        { "title": "Rising Earth", "composer": "Laura Estes" },
-        { "title": "Variations on \"Scarborough Fair\"", "composer": "Calvin Cluster" },
-        { "title": "Washington Post", "composer": "John Philip Sousa" },
-        { "title": "March of the Trolls", "composer": "Edvard Grieg, arr. Brian Beck" },
-        { "title": "Lux Astra", "composer": "Tyler S. Grant" }
+        {
+          "title": "Inspiration Fanfare",
+          "composer": "Adrian Sims"
+        },
+        {
+          "title": "Rising Earth",
+          "composer": "Laura Estes"
+        },
+        {
+          "title": "Variations on \"Scarborough Fair\"",
+          "composer": "Calvin Cluster"
+        },
+        {
+          "title": "Washington Post",
+          "composer": "John Philip Sousa"
+        },
+        {
+          "title": "March of the Trolls",
+          "composer": "Edvard Grieg, arr. Brian Beck"
+        },
+        {
+          "title": "Lux Astra",
+          "composer": "Tyler S. Grant"
+        }
       ],
-      "repertoireNote": "Composer names are copied from the 2026 festival program."
+      "repertoireNote": "Composer names are copied from the 2026 festival program.",
+      "photo": "05-students-concert-black-1",
+      "photoAlt": "Cheek band students in black concert clothes"
     },
     {
       "name": "Symphonic Band",
-      "summary": "Mr. Glover conducts the Symphonic Band. In the 2024–25 daily schedule published on the band Google Site, Symphonic Band met during period 4.",
+      "summary": "Mr. Glover conducts the Symphonic Band. In the 2024\u201325 daily schedule published on the band Google Site, Symphonic Band met during period 4.",
       "repertoireTitle": "",
       "repertoire": [],
-      "repertoireNote": ""
+      "repertoireNote": "",
+      "photo": "09-band-room-rehearsal-wide",
+      "photoAlt": "The full band rehearsing in the Cheek band room"
     },
     {
       "name": "Concert Band",
       "summary": "Mr. Glover's 2026 festival biography says he assists with the Concert Band, along with the Jazz and Honors Bands. Rehearsal time and current music have not been posted.",
       "repertoireTitle": "",
       "repertoire": [],
-      "repertoireNote": ""
+      "repertoireNote": "",
+      "photo": "17-band-performing-gym",
+      "photoAlt": "The Cheek band performing in the gym while a director conducts"
     },
     {
       "name": "Jazz Band",
       "summary": "Jazz band is part of the program the directors describe. Mr. Glover's 2026 festival biography says he assists with the Jazz Band. The band Google Site had described him as leading it. Rehearsal details are not posted here yet.",
       "repertoireTitle": "",
       "repertoire": [],
-      "repertoireNote": ""
+      "repertoireNote": "",
+      "photo": "08-band-room-rehearsal-3",
+      "photoAlt": "Students rehearsing in the Cheek band room"
     },
     {
       "name": "Beginning Band",
       "summary": "Sixth graders, and current students who are new to band, start in instrument classes. The last published daily schedule grouped beginners by instrument. Every beginner is screened so the instrument is a good fit.",
       "repertoireTitle": "",
       "repertoire": [],
-      "repertoireNote": ""
+      "repertoireNote": "",
+      "photo": "04-student-balloon-backdrop-1",
+      "photoAlt": "A Cheek band student in front of a balloon backdrop"
     },
     {
       "name": "Percussion",
-      "summary": "The directors describe an active percussion program. Beginner percussion was paired with beginner trumpet in the 2024–25 schedule. A separate percussion ensemble page has not been published.",
+      "summary": "The directors describe an active percussion program. Beginner percussion was paired with beginner trumpet in the 2024\u201325 schedule. A separate percussion ensemble page has not been published.",
       "repertoireTitle": "",
       "repertoire": [],
-      "repertoireNote": ""
+      "repertoireNote": "",
+      "photo": "10-students-hallway-percussion",
+      "photoAlt": "Cheek band students with percussion instruments in a hallway"
     }
   ],
   "events": [
@@ -187,20 +252,53 @@
   ],
   "upcomingNote": "Concerts, recruiting nights, and other dates for the current school year are not posted yet.",
   "schedule": {
-    "label": "2024–2025 daily schedule",
+    "label": "2024\u20132025 daily schedule",
     "source": "Last daily schedule published on the band Google Site. It is not labeled as the current year.",
     "rows": [
-      { "when": "7:00–8:05 a.m.", "what": "Sectionals" },
-      { "when": "8:15–9:00 a.m.", "what": "Period 1 · Conference" },
-      { "when": "9:03–9:48 a.m.", "what": "Period 2 · Beginner clarinet" },
-      { "when": "9:51–10:31 a.m.", "what": "Period 3 · Honors Band" },
-      { "when": "10:33–10:59 a.m.", "what": "Advisory" },
-      { "when": "11:02–11:47 a.m.", "what": "Period 4 · Symphonic Band" },
-      { "when": "12:24–1:10 p.m.", "what": "Period 5 · Beginner flute / beginner trombone" },
-      { "when": "1:13–1:59 p.m.", "what": "Period 6 · Beginner saxophone / beginner horn" },
-      { "when": "2:02–2:47 p.m.", "what": "Period 7 · Beginner trumpet / beginner percussion" },
-      { "when": "2:50–3:35 p.m.", "what": "Period 8 · Beginner oboe and bassoon / beginner tuba and euphonium" },
-      { "when": "3:45–4:45 p.m.", "what": "Sectionals" }
+      {
+        "when": "7:00\u20138:05 a.m.",
+        "what": "Sectionals"
+      },
+      {
+        "when": "8:15\u20139:00 a.m.",
+        "what": "Period 1 \u00b7 Conference"
+      },
+      {
+        "when": "9:03\u20139:48 a.m.",
+        "what": "Period 2 \u00b7 Beginner clarinet"
+      },
+      {
+        "when": "9:51\u201310:31 a.m.",
+        "what": "Period 3 \u00b7 Honors Band"
+      },
+      {
+        "when": "10:33\u201310:59 a.m.",
+        "what": "Advisory"
+      },
+      {
+        "when": "11:02\u201311:47 a.m.",
+        "what": "Period 4 \u00b7 Symphonic Band"
+      },
+      {
+        "when": "12:24\u20131:10 p.m.",
+        "what": "Period 5 \u00b7 Beginner flute / beginner trombone"
+      },
+      {
+        "when": "1:13\u20131:59 p.m.",
+        "what": "Period 6 \u00b7 Beginner saxophone / beginner horn"
+      },
+      {
+        "when": "2:02\u20132:47 p.m.",
+        "what": "Period 7 \u00b7 Beginner trumpet / beginner percussion"
+      },
+      {
+        "when": "2:50\u20133:35 p.m.",
+        "what": "Period 8 \u00b7 Beginner oboe and bassoon / beginner tuba and euphonium"
+      },
+      {
+        "when": "3:45\u20134:45 p.m.",
+        "what": "Sectionals"
+      }
     ]
   },
   "beginning": {
@@ -232,22 +330,70 @@
     ]
   },
   "instruments": [
-    { "name": "Flute", "blurb": "A silver woodwind. The player sends air across the tone hole." },
-    { "name": "Clarinet", "blurb": "A single-reed woodwind." },
-    { "name": "Oboe", "blurb": "A double-reed woodwind." },
-    { "name": "Bassoon", "blurb": "A larger double-reed woodwind and the lowest of the common double reeds." },
-    { "name": "Saxophone", "blurb": "A single-reed woodwind with a curved metal body." },
-    { "name": "Trumpet", "blurb": "A brass instrument played with a cup mouthpiece." },
-    { "name": "French horn", "blurb": "A coiled brass instrument. The published class list calls this Horn." },
-    { "name": "Trombone", "blurb": "A brass instrument that uses a slide." },
-    { "name": "Euphonium", "blurb": "A tenor brass instrument with a warm sound." },
-    { "name": "Tuba", "blurb": "The lowest brass instrument in the band." },
-    { "name": "Percussion", "blurb": "Drums, mallet keyboards, and accessories. Beginner percussionists learn more than one instrument." }
+    {
+      "name": "Flute",
+      "blurb": "A silver woodwind. The player sends air across the tone hole."
+    },
+    {
+      "name": "Clarinet",
+      "blurb": "A single-reed woodwind."
+    },
+    {
+      "name": "Oboe",
+      "blurb": "A double-reed woodwind."
+    },
+    {
+      "name": "Bassoon",
+      "blurb": "A larger double-reed woodwind and the lowest of the common double reeds."
+    },
+    {
+      "name": "Saxophone",
+      "blurb": "A single-reed woodwind with a curved metal body."
+    },
+    {
+      "name": "Trumpet",
+      "blurb": "A brass instrument played with a cup mouthpiece."
+    },
+    {
+      "name": "French horn",
+      "blurb": "A coiled brass instrument. The published class list calls this Horn."
+    },
+    {
+      "name": "Trombone",
+      "blurb": "A brass instrument that uses a slide."
+    },
+    {
+      "name": "Euphonium",
+      "blurb": "A tenor brass instrument with a warm sound."
+    },
+    {
+      "name": "Tuba",
+      "blurb": "The lowest brass instrument in the band."
+    },
+    {
+      "name": "Percussion",
+      "blurb": "Drums, mallet keyboards, and accessories. Beginner percussionists learn more than one instrument."
+    }
   ],
   "documents": [
-    { "title": "Band handbook", "href": "", "note": "The handbook PDF is not posted yet.", "placeholder": true },
-    { "title": "Supply list", "href": "", "note": "Instrument supply lists are not posted yet.", "placeholder": true },
-    { "title": "Forms and permissions", "href": "", "note": "Registration, rental, and permission forms are not posted yet.", "placeholder": true }
+    {
+      "title": "Band handbook",
+      "href": "",
+      "note": "The handbook PDF is not posted yet.",
+      "placeholder": true
+    },
+    {
+      "title": "Supply list",
+      "href": "",
+      "note": "Instrument supply lists are not posted yet.",
+      "placeholder": true
+    },
+    {
+      "title": "Forms and permissions",
+      "href": "",
+      "note": "Registration, rental, and permission forms are not posted yet.",
+      "placeholder": true
+    }
   ],
   "achievements": [
     {
@@ -261,7 +407,7 @@
     },
     {
       "title": "Music for All National Festival, 2026",
-      "kicker": "Indianapolis · March 26–28, 2026",
+      "kicker": "Indianapolis \u00b7 March 26\u201328, 2026",
       "summary": "The Honors Band was one of 52 scholastic ensembles invited to the 2026 Music for All National Festival, presented by Yamaha. Cheek performed on Friday, March 27, 2026, at 2:00 p.m. at the Howard L. Schrott Center for the Arts on the Butler University campus. Ensembles were chosen by recorded audition.",
       "quote": "",
       "quoteBy": "",
@@ -275,22 +421,202 @@
   },
   "gallery": [
     {
-      "src": "/images/honors-band-2026.webp",
-      "alt": "Cheek Middle School Honors Band standing in concert dress on a lawn, published in the 2026 Music for All National Festival program",
-      "caption": "Honors Band, published in the 2026 Music for All National Festival program.",
+      "slug": "09-band-room-rehearsal-wide",
+      "alt": "The full Cheek band rehearsing in the band room",
+      "caption": "Rehearsal in the band room.",
       "placeholder": false
     },
     {
-      "src": "",
-      "alt": "",
-      "caption": "Concert and rehearsal photos",
-      "placeholder": true
+      "slug": "07-band-in-stadium-stands",
+      "alt": "Cheek band students seated with instruments in the stadium stands",
+      "caption": "The band in the stadium stands.",
+      "placeholder": false
     },
     {
-      "src": "",
-      "alt": "",
-      "caption": "Beginning band and section photos",
-      "placeholder": true
+      "slug": "33-winter-concert-stage",
+      "alt": "A winter concert on stage, conductor in front of the band",
+      "caption": "Winter concert, from the audience.",
+      "placeholder": false
+    },
+    {
+      "slug": "34-concert-stage-wide-2",
+      "alt": "Wide view of a winter concert, the band in black on stage",
+      "caption": "Winter concert, wide view of the stage.",
+      "placeholder": false
+    },
+    {
+      "slug": "28-winter-concert-audience-view-1",
+      "alt": "Winter concert from the side of the stage while a director conducts",
+      "caption": "Winter concert, side of the stage.",
+      "placeholder": false
+    },
+    {
+      "slug": "17-band-performing-gym",
+      "alt": "The band performing in the school gym",
+      "caption": "Performance in the gym.",
+      "placeholder": false
+    },
+    {
+      "slug": "29-concert-auditorium",
+      "alt": "The band on stage in the auditorium",
+      "caption": "Concert in the auditorium.",
+      "placeholder": false
+    },
+    {
+      "slug": "24-concert-stage-wide-1",
+      "alt": "The band on a concert stage",
+      "caption": "On stage.",
+      "placeholder": false
+    },
+    {
+      "slug": "05-students-concert-black-1",
+      "alt": "Students in black concert clothes",
+      "caption": "Concert black.",
+      "placeholder": false
+    },
+    {
+      "slug": "20-students-concert-black-2",
+      "alt": "Students dressed in black for a concert",
+      "caption": "Ready for a concert.",
+      "placeholder": false
+    },
+    {
+      "slug": "23-students-concert-black-3",
+      "alt": "Students in black concert clothes together",
+      "caption": "Before a concert.",
+      "placeholder": false
+    },
+    {
+      "slug": "03-band-room-rehearsal-1",
+      "alt": "Students rehearsing in the band room",
+      "caption": "Band room rehearsal.",
+      "placeholder": false
+    },
+    {
+      "slug": "06-band-room-rehearsal-2",
+      "alt": "Another view of students rehearsing in the band room",
+      "caption": "Band room.",
+      "placeholder": false
+    },
+    {
+      "slug": "08-band-room-rehearsal-3",
+      "alt": "Students at their stands in the band room",
+      "caption": "Section rehearsal.",
+      "placeholder": false
+    },
+    {
+      "slug": "12-band-room-rehearsal-4",
+      "alt": "Students playing during a band room rehearsal",
+      "caption": "Rehearsal.",
+      "placeholder": false
+    },
+    {
+      "slug": "13-low-brass-rehearsal",
+      "alt": "Low brass students rehearsing",
+      "caption": "Low brass.",
+      "placeholder": false
+    },
+    {
+      "slug": "19-students-tuba-euphonium",
+      "alt": "Students with tuba and euphonium",
+      "caption": "Tuba and euphonium.",
+      "placeholder": false
+    },
+    {
+      "slug": "11-trombone-student",
+      "alt": "A student with a trombone",
+      "caption": "Trombone.",
+      "placeholder": false
+    },
+    {
+      "slug": "26-trumpet-student-holiday",
+      "alt": "A student playing trumpet beside holiday decorations",
+      "caption": "Trumpet.",
+      "placeholder": false
+    },
+    {
+      "slug": "10-students-hallway-percussion",
+      "alt": "Students with percussion instruments in a hallway",
+      "caption": "Percussion in the hallway.",
+      "placeholder": false
+    },
+    {
+      "slug": "01-students-playground-slide",
+      "alt": "Band students together on a playground slide",
+      "caption": "On the playground.",
+      "placeholder": false
+    },
+    {
+      "slug": "14-students-playground",
+      "alt": "Band students outside on the playground",
+      "caption": "Outside together.",
+      "placeholder": false
+    },
+    {
+      "slug": "02-band-pool-party",
+      "alt": "Band students at a pool party",
+      "caption": "Pool party.",
+      "placeholder": false
+    },
+    {
+      "slug": "15-pool-party-night",
+      "alt": "Band students at a pool party at night",
+      "caption": "Pool party at night.",
+      "placeholder": false
+    },
+    {
+      "slug": "16-pool-party-2",
+      "alt": "Band students together at a pool",
+      "caption": "At the pool.",
+      "placeholder": false
+    },
+    {
+      "slug": "04-student-balloon-backdrop-1",
+      "alt": "A student in front of a balloon backdrop",
+      "caption": "Balloon backdrop.",
+      "placeholder": false
+    },
+    {
+      "slug": "18-students-balloon-backdrop-2",
+      "alt": "Students in front of a balloon backdrop",
+      "caption": "With the balloons.",
+      "placeholder": false
+    },
+    {
+      "slug": "21-students-balloon-backdrop-3",
+      "alt": "Students posing with a balloon backdrop",
+      "caption": "Group photo.",
+      "placeholder": false
+    },
+    {
+      "slug": "25-students-costumes",
+      "alt": "Students in costumes",
+      "caption": "Costumes.",
+      "placeholder": false
+    },
+    {
+      "slug": "22-student-crown-prize-1",
+      "alt": "A student wearing a crown prize",
+      "caption": "A prize crown.",
+      "placeholder": false
+    },
+    {
+      "slug": "27-student-crown-prize-2",
+      "alt": "A student with a crown prize",
+      "caption": "Another prize crown.",
+      "placeholder": false
+    },
+    {
+      "slug": "31-group-holiday-decor",
+      "alt": "Students with holiday decorations",
+      "caption": "Holiday decorations.",
+      "placeholder": false
+    },
+    {
+      "slug": "director-euphonium",
+      "alt": "A Cheek band director playing euphonium outdoors",
+      "caption": "A director with euphonium. The name can be confirmed in the site data file.",
+      "placeholder": false
     }
   ],
   "lessons": {
@@ -302,65 +628,216 @@
     "staffNote": "Names and instruments below are the list published on the band Google Site under Personal Trainers. The directors should confirm that the list is still current. No private email addresses and no lesson-teacher photos are included."
   },
   "lessonStaff": [
-    { "name": "Dr. Sara Raviotta", "instrument": "Flute" },
-    { "name": "Lynne Hudson", "instrument": "Flute" },
-    { "name": "Summer Bruner", "instrument": "Flute" },
-    { "name": "Hayley Monk", "instrument": "Oboe" },
-    { "name": "Robert Richter", "instrument": "Bassoon" },
-    { "name": "Brennan Coffey", "instrument": "Clarinet" },
-    { "name": "Rey Rostro", "instrument": "Clarinet" },
-    { "name": "Dr. Zitian Wang", "instrument": "Saxophone" },
-    { "name": "Brendan Lorenz", "instrument": "Trumpet" },
-    { "name": "Dr. Ben Raviotta", "instrument": "Horn" },
-    { "name": "Kenny Ross", "instrument": "Trombone and euphonium" },
-    { "name": "Scott McLain", "instrument": "Euphonium and trombone" },
-    { "name": "Thomas Oakley", "instrument": "Tuba" },
-    { "name": "Colby Snider", "instrument": "Percussion" }
+    {
+      "name": "Dr. Sara Raviotta",
+      "instrument": "Flute"
+    },
+    {
+      "name": "Lynne Hudson",
+      "instrument": "Flute"
+    },
+    {
+      "name": "Summer Bruner",
+      "instrument": "Flute"
+    },
+    {
+      "name": "Hayley Monk",
+      "instrument": "Oboe"
+    },
+    {
+      "name": "Robert Richter",
+      "instrument": "Bassoon"
+    },
+    {
+      "name": "Brennan Coffey",
+      "instrument": "Clarinet"
+    },
+    {
+      "name": "Rey Rostro",
+      "instrument": "Clarinet"
+    },
+    {
+      "name": "Dr. Zitian Wang",
+      "instrument": "Saxophone"
+    },
+    {
+      "name": "Brendan Lorenz",
+      "instrument": "Trumpet"
+    },
+    {
+      "name": "Dr. Ben Raviotta",
+      "instrument": "Horn"
+    },
+    {
+      "name": "Kenny Ross",
+      "instrument": "Trombone and euphonium"
+    },
+    {
+      "name": "Scott McLain",
+      "instrument": "Euphonium and trombone"
+    },
+    {
+      "name": "Thomas Oakley",
+      "instrument": "Tuba"
+    },
+    {
+      "name": "Colby Snider",
+      "instrument": "Percussion"
+    }
   ],
   "practice": {
     "intro": "Class-specific assignments, practice tracks, and method-book pages are not posted yet. Until the directors add them, this is a general practice pattern families can use. It is not a Cheek assignment.",
     "steps": [
-      { "title": "Set up the same way every day", "text": "Put the music stand where the student can see it, check the reed or mouthpiece, and set a metronome before the first note." },
-      { "title": "Warm up", "text": "Long tones, a slow scale, and a few easy rhythms. Five quiet minutes here make the assignment easier." },
-      { "title": "Work a short section", "text": "Take the hardest four measures, play them slowly, and only speed up when they are correct three times in a row." },
-      { "title": "Record one minute", "text": "Play the passage once and listen back. Students hear rushing, missed notes, and tone more clearly than they do while playing." },
-      { "title": "Pack up", "text": "Swab or empty water, and put the instrument where it will leave the house for school." }
+      {
+        "title": "Set up the same way every day",
+        "text": "Put the music stand where the student can see it, check the reed or mouthpiece, and set a metronome before the first note."
+      },
+      {
+        "title": "Warm up",
+        "text": "Long tones, a slow scale, and a few easy rhythms. Five quiet minutes here make the assignment easier."
+      },
+      {
+        "title": "Work a short section",
+        "text": "Take the hardest four measures, play them slowly, and only speed up when they are correct three times in a row."
+      },
+      {
+        "title": "Record one minute",
+        "text": "Play the passage once and listen back. Students hear rushing, missed notes, and tone more clearly than they do while playing."
+      },
+      {
+        "title": "Pack up",
+        "text": "Swab or empty water, and put the instrument where it will leave the house for school."
+      }
     ],
     "links": []
   },
   "boosters": {
     "intro": "A booster club page, volunteer sign-up, and fundraiser link have not been published for this site. Families who want to help can write the directors. Concert dates, when they are posted, are the most direct way to support the students.",
     "needs": [
-      { "title": "Booster meetings", "note": "Meeting day, time, and location are not posted yet.", "placeholder": true },
-      { "title": "Volunteer roles", "note": "Chaperone, uniform, and concession sign-ups are not posted yet.", "placeholder": true },
-      { "title": "Donations and fundraisers", "note": "Do not send money until the directors publish an official link here.", "placeholder": true }
+      {
+        "title": "Booster meetings",
+        "note": "Meeting day, time, and location are not posted yet.",
+        "placeholder": true
+      },
+      {
+        "title": "Volunteer roles",
+        "note": "Chaperone, uniform, and concession sign-ups are not posted yet.",
+        "placeholder": true
+      },
+      {
+        "title": "Donations and fundraisers",
+        "note": "Do not send money until the directors publish an official link here.",
+        "placeholder": true
+      }
     ]
   },
   "practiceLinksPlaceholder": "Recordings, SmartMusic or other assignments, and fingering charts will be linked here when the directors add URLs.",
   "sources": [
-    { "label": "Cheek Middle School Band Google Site", "href": "https://sites.google.com/view/cheekband/home" },
-    { "label": "Cheek Middle School, Denton ISD", "href": "https://cheekms.dentonisd.org/academics/band" },
-    { "label": "Denton ISD Mark of Excellence announcement, October 2, 2026", "href": "https://www.dentonisd.org/post-details/~board/district-headlines/post/mark-excellence-2026" },
-    { "label": "Music for All invitation announcement, August 15, 2025", "href": "https://musicforall.org/music-for-all-announces-ensembles-invited-to-perform-at-the-2026-music-for-all-national-festival-presented-by-yamaha/" },
-    { "label": "2026 Music for All National Festival program (Cheek Honors Band)", "href": "https://festival.musicforall.org/wp-content/uploads/sites/8/2026/03/026-MFA-Festival-Program_Full-Web.pdf" },
-    { "label": "2026 festival spectator schedule", "href": "https://festival.musicforall.org/spectatorguide/" }
+    {
+      "label": "Cheek Middle School Band Google Site",
+      "href": "https://sites.google.com/view/cheekband/home"
+    },
+    {
+      "label": "Cheek Middle School, Denton ISD",
+      "href": "https://cheekms.dentonisd.org/academics/band"
+    },
+    {
+      "label": "Denton ISD Mark of Excellence announcement, October 2, 2026",
+      "href": "https://www.dentonisd.org/post-details/~board/district-headlines/post/mark-excellence-2026"
+    },
+    {
+      "label": "Music for All invitation announcement, August 15, 2025",
+      "href": "https://musicforall.org/music-for-all-announces-ensembles-invited-to-perform-at-the-2026-music-for-all-national-festival-presented-by-yamaha/"
+    },
+    {
+      "label": "2026 Music for All National Festival program (Cheek Honors Band)",
+      "href": "https://festival.musicforall.org/wp-content/uploads/sites/8/2026/03/026-MFA-Festival-Program_Full-Web.pdf"
+    },
+    {
+      "label": "2026 festival spectator schedule",
+      "href": "https://festival.musicforall.org/spectatorguide/"
+    }
   ],
   "todos": [
-    { "id": "staff-roster", "page": "About", "task": "Confirm the current director roster. The campus directory lists Dr. Denson and Eithan Moreno. The program biography and the March 2026 festival program list Daney Glover as associate director." },
-    { "id": "moreno-bio", "page": "About", "task": "Add Eithan Moreno's title, biography, and a photo the directors approve." },
-    { "id": "calendar", "page": "Calendar", "task": "Add the current year's concerts and events to the events array. Use status \"upcoming\"." },
-    { "id": "bell-schedule", "page": "Calendar", "task": "Replace the 2024–2025 daily schedule with the current bell schedule, or remove it if it should not be shown." },
-    { "id": "screening", "page": "Beginners", "task": "Post the next instrument-screening date, time, and signup link. The April 12, 2025 screening is in the past." },
-    { "id": "handbook", "page": "Families", "task": "Upload the handbook PDF to public/files and set documents[0].href." },
-    { "id": "supplies", "page": "Families", "task": "Add the supply list. Do not guess brands." },
-    { "id": "forms", "page": "Families", "task": "Add permission, rental, and trip forms." },
-    { "id": "uil", "page": "Achievements", "task": "Add UIL concert and sight-reading ratings only after they are confirmed. Set uil.placeholder to false and replace uil.text." },
-    { "id": "lesson-fee", "page": "Lessons", "task": "Confirm the private-lesson fee. The Google Site figure of $20 may be out of date." },
-    { "id": "lesson-staff", "page": "Lessons", "task": "Confirm the lesson-teacher list. Do not add personal emails or headshots." },
-    { "id": "boosters", "page": "Support", "task": "Add booster meeting details and any official payment link." },
-    { "id": "practice-links", "page": "Practice", "task": "Add practice tracks, method-book pages, and class links to practice.links as {title, href}." },
-    { "id": "gallery", "page": "Gallery", "task": "Add WebP or JPG photos under public/images (aim for under 300KB) and fill the empty gallery items." },
-    { "id": "concert-band-name", "page": "Ensembles", "task": "Confirm the name of the third concert ensemble. Concert Band is named in Mr. Glover's 2026 biography." },
-    { "id": "netlify-form", "page": "Contact", "task": "After deploy, turn on Netlify Forms and send notifications to the directors." }
+    {
+      "id": "staff-roster",
+      "page": "About",
+      "task": "Confirm the current director roster. The campus directory lists Dr. Denson and Eithan Moreno. The program biography and the March 2026 festival program list Daney Glover as associate director."
+    },
+    {
+      "id": "moreno-bio",
+      "page": "About",
+      "task": "Add Eithan Moreno's title, biography, and a photo the directors approve."
+    },
+    {
+      "id": "calendar",
+      "page": "Calendar",
+      "task": "Add the current year's concerts and events to the events array. Use status \"upcoming\"."
+    },
+    {
+      "id": "bell-schedule",
+      "page": "Calendar",
+      "task": "Replace the 2024\u20132025 daily schedule with the current bell schedule, or remove it if it should not be shown."
+    },
+    {
+      "id": "screening",
+      "page": "Beginners",
+      "task": "Post the next instrument-screening date, time, and signup link. The April 12, 2025 screening is in the past."
+    },
+    {
+      "id": "handbook",
+      "page": "Families",
+      "task": "Upload the handbook PDF to public/files and set documents[0].href."
+    },
+    {
+      "id": "supplies",
+      "page": "Families",
+      "task": "Add the supply list. Do not guess brands."
+    },
+    {
+      "id": "forms",
+      "page": "Families",
+      "task": "Add permission, rental, and trip forms."
+    },
+    {
+      "id": "uil",
+      "page": "Achievements",
+      "task": "Add UIL concert and sight-reading ratings only after they are confirmed. Set uil.placeholder to false and replace uil.text."
+    },
+    {
+      "id": "lesson-fee",
+      "page": "Lessons",
+      "task": "Confirm the private-lesson fee. The Google Site figure of $20 may be out of date."
+    },
+    {
+      "id": "lesson-staff",
+      "page": "Lessons",
+      "task": "Confirm the lesson-teacher list. Do not add personal emails or headshots."
+    },
+    {
+      "id": "boosters",
+      "page": "Support",
+      "task": "Add booster meeting details and any official payment link."
+    },
+    {
+      "id": "practice-links",
+      "page": "Practice",
+      "task": "Add practice tracks, method-book pages, and class links to practice.links as {title, href}."
+    },
+    {
+      "id": "gallery",
+      "page": "Gallery",
+      "task": "Add new photos under public/images/photos as WebP (a full size and an -800 version, each under 300KB) and append them to the gallery array. Do not add lesson-teacher headshots."
+    },
+    {
+      "id": "concert-band-name",
+      "page": "Ensembles",
+      "task": "Confirm the name of the third concert ensemble. Concert Band is named in Mr. Glover's 2026 biography."
+    },
+    {
+      "id": "netlify-form",
+      "page": "Contact",
+      "task": "After deploy, turn on Netlify Forms and send notifications to the directors."
+    }
   ]
 }

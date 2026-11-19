@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import PageHero from '../components/PageHero.astro';
+import Photo from '../components/Photo.astro';
 import Placeholder from '../components/Placeholder.astro';
 import { site } from '../lib/content';
 ---
@@ -13,6 +14,8 @@ import { site } from '../lib/content';
     kicker="Grades 6–8"
     title="Ensembles"
     lede="Three concert ensembles, jazz band, beginning instrument classes, and percussion. Current rehearsal music, other than the 2026 festival program, will be added by the directors."
+    photo="34-concert-stage-wide-2"
+    photoAlt="Wide view of a Cheek winter concert, the band in black on stage"
   />
 
   <section class="section">
@@ -20,6 +23,14 @@ import { site } from '../lib/content';
       {
         site.ensembles.map((ensemble) => (
           <article class="card">
+            {ensemble.photo && (
+              <Photo
+                class="card-photo"
+                slug={ensemble.photo}
+                alt={ensemble.photoAlt}
+                sizes="(min-width: 900px) 70vw, 100vw"
+              />
+            )}
             <h2>{ensemble.name}</h2>
             <p>{ensemble.summary}</p>
             {ensemble.repertoire.length > 0 ? (

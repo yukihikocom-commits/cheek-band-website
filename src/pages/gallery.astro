@@ -1,35 +1,35 @@
 ---
 import Base from '../layouts/Base.astro';
 import PageHero from '../components/PageHero.astro';
-import Placeholder from '../components/Placeholder.astro';
+import Photo from '../components/Photo.astro';
 import { site } from '../lib/content';
 ---
 
 <Base
   title="Gallery"
-  description="Photographs and video from the Cheek Middle School Band."
+  description="Photographs from Cheek Middle School Band rehearsals, concerts, and time together."
 >
   <PageHero
     kicker="Photos and video"
     title="Gallery"
-    lede="The Honors Band photograph below is the one published in the 2026 Music for All program. More photos will be added as the directors place them in the site data file."
+    lede="Rehearsals, concerts, and time outside the band room. These photos were posted by the band. Student names are not listed. More pictures can be added in the site data file."
+    photo="28-winter-concert-audience-view-1"
+    photoAlt="Winter concert from the side of the stage, a director conducting"
   />
 
   <section class="section">
     <div class="wrap grid gallery">
       {
-        site.gallery.map((item) =>
-          item.src ? (
-            <figure class="shot">
-              <img src={item.src} alt={item.alt} width="1112" height="340" />
-              <figcaption>{item.caption}</figcaption>
-            </figure>
-          ) : (
-            <Placeholder>
-              <p>{item.caption} — coming soon.</p>
-            </Placeholder>
-          ),
-        )
+        site.gallery.map((item) => (
+          <figure class="shot">
+            <Photo
+              slug={item.slug}
+              alt={item.alt}
+              sizes="(min-width: 900px) 33vw, (min-width: 640px) 50vw, 100vw"
+            />
+            <figcaption>{item.caption}</figcaption>
+          </figure>
+        ))
       }
     </div>
   </section>

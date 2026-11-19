@@ -1,17 +1,19 @@
 ---
 import Base from '../layouts/Base.astro';
+import Photo from '../components/Photo.astro';
 import { site } from '../lib/content';
 
 const directors = site.directors.filter((person) => person.photo);
 ---
 
 <Base title={site.name} description={site.description}>
-  <img
+  <img class="hero-banner" src={site.images.logoBanner} alt="" width="1600" height="609" />
+  <Photo
     class="hero-photo"
-    src={site.images.band}
-    alt={site.images.bandAlt}
-    width="1112"
-    height="340"
+    slug={site.images.hero}
+    alt={site.images.heroAlt}
+    sizes="100vw"
+    eager
   />
   <section class="hero-panel">
     <div class="wrap">
@@ -38,7 +40,7 @@ const directors = site.directors.filter((person) => person.photo);
           <span>Mark of Excellence national winner</span>
         </p>
       </div>
-      <p class="credit">{site.images.bandCredit}</p>
+      <p class="credit">{site.images.heroCredit}</p>
     </div>
   </section>
 

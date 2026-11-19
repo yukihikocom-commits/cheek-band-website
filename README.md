@@ -29,11 +29,11 @@ Do not add personal email addresses for private-lesson teachers, and do not add 
 
 ### Add a photo
 
-1. Export a JPG or WebP that is about 1600 pixels wide and under 300KB.
-2. Save it in `public/images/`.
-3. In `gallery`, set `src` to `/images/your-file.webp`, write an `alt` description, set `caption`, and set `"placeholder": false`.
+1. Save a WebP at most 1600 pixels on the long side, under 300KB, in `public/images/photos/`.
+2. Save a second copy, 800 pixels on the long side, named `your-file-800.webp`.
+3. Add an item to `gallery` with `slug` (the filename without `.webp`), `alt`, and `caption`.
 
-The Honors Band photo and director portraits already on the site are the ones published in the 2026 Music for All program. The Cheek logo is the district mark.
+Do not add lesson-teacher headshots. The header, hero, and favicon use the Cheek Band logos in `public/images/logos/`.
 
 ### Add an event
 
